@@ -52,6 +52,16 @@ myCar.model = 'Q5';
 console.log(anotherCar);
 console.log(myCar);
 
+// ! Exercise 6:
+const propertyName = 'username';
+
+const userProfile = {
+  [propertyName]: 'Maryam',
+};
+
+console.log(userProfile);
+
+
 // ! Exercise 8:
 function describe(noun = 'cat', adjective = 'orange') {
   console.log(`The ${noun} is ${adjective}.`);
