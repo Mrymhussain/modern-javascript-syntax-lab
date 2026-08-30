@@ -52,3 +52,27 @@ myCar.model = 'Q5';
 console.log(anotherCar);
 console.log(myCar);
 
+// ! Exercise 8:
+function describe(noun = 'cat', adjective = 'orange') {
+  console.log(`The ${noun} is ${adjective}.`);
+}
+
+describe();
+
+// ! Exercise 9:
+const pizza = 'tasty';
+pizza === 'tasty' ? console.log('yum') : console.log('yuck');
+
+// ! Exercise 10:
+
+const localLangConfig = null; 
+
+const lang = localLangConfig || 'en';
+
+console.log(lang);
+
+const savedUserTheme = null; 
+
+const theme = savedUserTheme || 'light';
+
+console.log(theme);
