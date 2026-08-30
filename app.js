@@ -76,3 +76,11 @@ const savedUserTheme = null;
 const theme = savedUserTheme || 'light';
 
 console.log(theme);
+
+// ! Exercise 11:
+
+const adventurer = {
+  name: 'Alice',
+};
+
+console.log(adventurer.cat?.age);
