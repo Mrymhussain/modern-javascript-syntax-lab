@@ -36,3 +36,11 @@ const morePizzaToppings = ['Cheese', 'Sauce'];
 const uncontroversialPizzaToppings = [...morePizzaToppings];
 
 console.log(uncontroversialPizzaToppings);
+
+// ! Exercise 5:
+
+const anotherCar = {
+  make: 'Toyota',
+  model: 'RAV4',
+};
+
