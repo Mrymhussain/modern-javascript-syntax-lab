@@ -44,3 +44,11 @@ const anotherCar = {
   model: 'RAV4',
 };
 
+const myCar = { ...anotherCar };
+
+myCar.make = 'Mercedes';
+myCar.model = 'Q5';
+
+console.log(anotherCar);
+console.log(myCar);
+
