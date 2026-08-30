@@ -11,8 +11,6 @@
 
 const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 
-// Your code here:
-
 const numsTimesTwo = nums.map((num) => {
   return num * 2;
 });
